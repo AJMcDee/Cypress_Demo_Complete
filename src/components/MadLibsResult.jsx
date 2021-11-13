@@ -1,7 +1,7 @@
 export function MadLibsResult({answers}) {
 
     return (
-        <div>
+        <div className='results'>
         <h2>Results</h2>
             <p>Once upon a time in {answers.city}, {answers.name} got out of bed to start their day. To their surprise,
             sitting at the end of their bed was an enormous {answers.animal} {answers.action} the {answers.object}.</p>
