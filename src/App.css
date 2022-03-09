@@ -18,3 +18,18 @@
 .App-link {
   color: #61dafb;
 }
+
+.loginform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.loginform > label {
+  padding: 1rem 0rem 0.5rem;
+}
+
+.loginform > input {
+  margin-bottom: 1rem;
+}

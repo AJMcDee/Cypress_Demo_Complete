@@ -1,3 +1,6 @@
+// You can use this to practice your Cypress skills
+// Completed files are in cypress/support with the filenames ending in .final.js
+
 const {login} = require("../../../src/login");
 describe('The MadLibs Main Form', () => {
 

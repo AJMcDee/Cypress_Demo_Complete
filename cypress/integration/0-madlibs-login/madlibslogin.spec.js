@@ -1,4 +1,6 @@
-const {login} = require("../../../src/login");
+// You can use this to practice your Cypress skills
+// Completed files are in cypress/support with the filenames ending in .final.js
+
 describe('MadLibs Login Tests', () => {
 
     beforeEach(() => {

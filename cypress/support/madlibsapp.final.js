@@ -1,4 +1,4 @@
-const {login} = require("../../../src/login");
+const {login} = require("../../src/login");
 describe('The MadLibs Main Form', () => {
 
     const answers = {
@@ -18,7 +18,7 @@ describe('The MadLibs Main Form', () => {
 
         // ARRANGE
         cy.visit('http://localhost:3000')
-        cy.wrap(login({username: "anna.mcdougall", password:"LetsTryCypress2021"}))
+        cy.wrap(login({username: "anna.mcdougall", password:"LetsTryCypress2022"}))
 
         //ACT
         cy.get('input#animal').type(answers.animal)
@@ -37,6 +37,7 @@ describe('The MadLibs Main Form', () => {
 
     })
 
+    // same thing in a loop
     // it('activates the button when all form fields are filled', () => {
     //
     //     const answerKeys = Object.keys(answers)

@@ -27,8 +27,10 @@ export function Login({setLoggedIn}) {
 
     return (
         <div>
-        <form>
+        <form className="loginform">
+            <label name='username'>Username:</label>
             <input name='username' type='text' value={username} onChange={handleChange} />
+            <label name='password'>Password:</label>
             <input name='password' type='password' value={password} onChange={handleChange}/>
         </form>
             <button onClick={sendLogin} >Login</button>
